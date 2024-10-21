@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,46 @@
+/* Imported*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Variables*/
+:root {
+    --primary-color: #191825;
+    --secondary-color: #865DFF;
+    --tertiary-color: #FFFFFF;
+
+    --primary-font: "Inter", sans-serif;
+    --tittle-size: 36px;
+    --font-size-standard: 16px;
+    --color-font-primary: #000000;
+    --color-font-tittle: #ffffff;
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--color-font-primary);
+    font-family: var(--primary-font);
+}
+
+main {
+    width: 975px;
+    height: auto;
+}
+
+h1 {
+    color: var(--color-font-tittle);
+    font-size: var(--tittle-size);
+    font-weight: bold;
+}
+
+.button-header {
+    font-family: var(--primary-font);
+    font-size: var(--font-size-standard);
+    text-wrap: nowrap;
+    padding: 10px;
+}
+
+.task {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 50px;
+}
