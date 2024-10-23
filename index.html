@@ -10,10 +10,9 @@
   </head>
   <body>
     <main>
-        <div>
       <div class="cabecalho">
         <h1>Lista de tarefas</h1>
-        <button class="button-header">
+        <button class="button-header" id="button-header">
           Adicionar tarefa
           <img src="./assets/PlusLg.png" alt="" />
         </button>
@@ -25,17 +24,29 @@
         <li>
           <div class="task">
             <input type="checkbox" />
-            <div>
-              <h2>Tarefa</h2>
+            <div class="task-description">
+              <h2 class="task-tittle">Tarefa</h2>
               <p>Fazer faxina em casa</p>
             </div>
-            <div>
-              <h2>Horário</h2>
+            <div class="task-description">
+              <h2 class="task-tittle">Horário</h2>
               <p>10:30</p>
             </div>
           </div>
         </li>
       </ul>
+      <dialog>
+        <div class="dialog-main">
+          <h2 class="tittle-modal">Adicione uma tarefa</h2>
+          <input class="modal-input" type="text" placeholder="digite qualquer coisa" />
+          <div class="button-section">
+            <button class="add-button button">Adicionar</button>
+            <button class="close-button button" id="close-button">Cancelar</button>
+          </div>
+        </div>
+      </dialog>
+
+      <script src="./js/script.js"></script>
     </main>
   </body>
 </html>

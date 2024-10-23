@@ -19,6 +19,7 @@ body {
     background-color: var(--primary-color);
     color: var(--color-font-primary);
     font-family: var(--primary-font);
+    font-size: var(--font-size-standard);
 }
 
 main {
@@ -43,4 +44,50 @@ h1 {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 50px;
+}
+
+.task-tittle {
+    font-weight: bold;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .3);
+}
+
+dialog {
+    background-color: #282A36; 
+    width: 1137px;
+    height: 737px;
+    border-radius: 15px;
+    border: none;
+}
+
+.dialog-main {
+    height: 100%;
+    width: 100%;
+}
+
+.tittle-modal {
+    width: auto;
+    font-size: var(--tittle-size);
+    font-weight: bold;
+    color: var(--color-font-tittle);
+}
+
+.modal-input {
+    background-color: #191825;
+    padding: 15px 143px;
+    border-radius: 10px;
+    border: none;
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 80px;
+    color: var(--tertiary-color);
+    background-color: #1F1B24;
+    font-weight: 600;
 }

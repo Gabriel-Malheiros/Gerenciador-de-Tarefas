@@ -20,3 +20,22 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+.task-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dialog-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-section {
+    display: flex;
+    gap: 20px;
+}
